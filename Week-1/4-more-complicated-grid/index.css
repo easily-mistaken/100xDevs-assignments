@@ -1,0 +1,26 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    
+}
+.left {
+    background-color: red;
+}
+.flex1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.left1 {
+    text-align: center;
+}
+.right {
+    background-color: blue;
+}
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
